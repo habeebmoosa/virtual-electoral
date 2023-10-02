@@ -1,0 +1,142 @@
+.electionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 70vw;
+}
+
+.electionHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.listHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+    color: #2f323a;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.elections{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.elections .election{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* view election css --------------------------------------------------------------------------------*/
+
+.electionDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70vw;
+}
+
+.electionDetailsBody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.electionCandidatesBody{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.electionBodyItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.electionCandidates{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.electionCandidateFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* candidate creation css -------------------------------------------------------------------------------*/
+
+.createFormContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 70vw;
+}
+
+.createFormContainer .createForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.createFormContainer .createForm .formItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textarea{
+    width: 30vw;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.label{
+    font-size: 14pt;
+    font-weight: 600;
+    color: #2f323a;
+}
+
+/* election creating form css -------------------------------------------------------------------------------*/
+

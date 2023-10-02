@@ -1,0 +1,39 @@
+.heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #414141;
+    font-family: "Raleway SemiBold", sans-serif;
+}
+
+.btn{
+    background-color: #2f323a;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+.btn-white{
+    background-color: white;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: #2f323a;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+.inputBox{
+    background: #fbfbfb;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+    outline: none;
+    font-size: 13pt;
+    padding: 5px;
+}
